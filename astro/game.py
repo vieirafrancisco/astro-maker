@@ -25,7 +25,7 @@ class Game:
         self.all_sprites.draw(self.window)
 
     def update(self):
-        pass
+        self.all_sprites.update()
 
     def execute(self):
         self.new()
